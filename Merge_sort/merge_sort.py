@@ -1,10 +1,9 @@
 def main():
     A = []
-    # l = int(input("Enter the No. of elements: "))
-    # print("Enter the array elements ")
-    # for i in range(0,l):
-    #     A.append(int(input()))
-    A = [5,2,4,7,1,3,2,6]
+    l = int(input("Enter the No. of elements: "))
+    print("Enter the array elements ")
+    for i in range(0,l):
+        A.append(int(input()))
     mergeSort(A)
     print("Array after sorting: ",A)
 
